@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Sora', sans-serif;
+    background-color: #F5F5F0;
+    color: #162B30;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
+
+
+@layer utilities {
+  .page-bg  { background-color: #F5F5F0; }
+  .page-bg2 { background-color: #F5F5F5; }
+  .exclusive-btn-selected {
+    background-color: #162B30 !important;
+    color: #fff !important;
+  }
+}
